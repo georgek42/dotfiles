@@ -109,7 +109,7 @@ def clone(service, dir, label):
 	else:
 		if not os.path.exists(os.getcwd() + label):
 			os.makedirs(os.getcwd() + label)
-		shutil.copy2(os.path.expanduser(dir + '/' + service), os.getcwd() + label + '/' + service)
+		shutil.copy2(os.path.expanduser(dir + service), os.getcwd() + label + '/' + service)
 
 def print_error(str):
 	print('\033[31m' + '>> ' + '\x1B[0m' + str)
