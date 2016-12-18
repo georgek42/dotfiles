@@ -1,0 +1,16 @@
+{
+        "debug": false,
+        "ssh_configs": {
+            "orderbook-demo": {
+                // Address of the remote server
+                // Not required, will default to the "ALIAS_NAME" string
+                "address": "orderbook-demo",
+                // Username to log into server with
+                // Not required, the command line scp will default it to current user
+                "username": "ubuntu",
+                // NOTE: Remember, to authenticate you need to have your pub key
+                // registered in the remote server ssh's authorized_keys file.,
+                "create_if_missing": false
+            },
+        }
+    }

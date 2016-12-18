@@ -1,0 +1,4 @@
+[
+	{ "command": "git_add_current_file" },
+	{ "command": "git_quick_commit_current_file" }
+]

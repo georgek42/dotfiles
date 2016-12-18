@@ -1,0 +1,7 @@
+[
+	{ "keys": ["alt+m"], "command": "toggle_menu" },
+	{ "keys": ["alt+g"], "command": "run_macro_file", "args": {"file": "Packages/User/quickgit.sublime-macro"} },
+	{ "keys": ["alt+p"], "command": "git_push" },
+	{ "keys": ["alt+right"], "command": "move_tab", "args": {"position": "+1"} 	},
+	{ "keys": ["alt+left"], "command": "move_tab", "args": {"position": "-1"} 	},	
+]
